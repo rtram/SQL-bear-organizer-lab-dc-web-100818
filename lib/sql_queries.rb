@@ -30,7 +30,7 @@ end
 def counts_number_of_bears_with_goofy_temperaments
   "SELECT COUNT(temperament)
     FROM bears
-    WHERE temperament = ("goofy");    
+    WHERE temperament = 'goofy';    
   "
 end
 
